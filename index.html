@@ -21,7 +21,7 @@
           <p>
             <span id="company-name">project nature™ </span> is not a real
             project. Our mission is to save our lovely nature by trekking and
-            trash!
+            trash! Also, this beautiful photo belongs to the Sébastien Goldberg.
           </p>
           <p id="dummy-second-para">Participate and help our cause now!</p>
         </div>
@@ -30,48 +30,56 @@
             <div id="form-title">Join us today!</div>
 
             <div class="input first-name">
-              <label for="first-name">FIRST NAME</label>
-              <input required type="text" name="first-text" id="first-name" />
+              <label for="first-name">First Name:</label>
+              <input type="text" name="first-text" id="first-name" />
             </div>
 
             <div class="input last-name">
-              <label for="last-name">LAST NAME</label>
-              <input required type="text" name="last-name" id="last-name" />
+              <label for="last-name">Last Name:</label>
+              <input type="text" name="last-name" id="last-name" />
             </div>
 
             <div class="input email">
-              <label for="email">EMAIL</label>
+              <label for="email"><span class="red">*</span> Email:</label>
               <input required type="email" name="email" id="email" />
             </div>
 
             <div class="input phone-number">
-              <label for="phone-number">PHONE NUMBER</label>
-              <input
-                required
-                type="number"
-                name="phone-number"
-                id="phone-number"
-              />
+              <label for="phone-number">Phone Number:</label>
+              <input type="number" name="phone-number" id="phone-number" />
             </div>
 
             <div class="input pasword">
-              <label for="password">PASSWORD</label>
-              <input required type="password" name="password" id="password" />
+              <label for="password"><span class="red">*</span> Password:</label>
+              <input
+                required
+                placeholder="Minimum 8 characters."
+                minlength="8"
+                type="password"
+                name="password"
+                id="password"
+              />
             </div>
 
             <div class="input confirm-pasword">
-              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <label for="confirm-password"
+                ><span class="red">*</span> Confirm Password:</label
+              >
               <input
                 required
+                placeholder="Minimum 8 characters."
+                minlength="8"
                 type="password"
                 name="confirm-password"
                 id="confirm-password"
               />
             </div>
+            <button>Join us now!</button>
           </div>
 
-          <button>Join us now!</button>
-          <p>Already have an account? <span id="blue-text">Log in</span></p>
+          <p id="account">
+            Already have an account? <span id="blue-text">Log in</span>
+          </p>
           <!--  -->
         </form>
       </div>
