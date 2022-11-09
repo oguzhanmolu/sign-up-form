@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 1.5rem;
+  background-color: rgba(1, 1, 1, 0.8);
+}
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+}
+#logo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(1, 1, 1, 0.6);
+  flex: 1;
+}
+#logo-img {
+  height: 75px;
+}
+#logo-text {
+  color: white;
+  font-family: 'Cantora One', sans-serif;
+  font-size: 1.25rem;
+  margin-left: 10px;
+}
+#image-container {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.form {
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0.9);
+}
