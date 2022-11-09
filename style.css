@@ -9,7 +9,6 @@
   display: flex;
   height: 100vh;
   width: 100vw;
-  padding: 4rem 8rem 4rem 8rem;
   background-color: rgb(35, 44, 60);
 }
 
@@ -38,19 +37,19 @@
 #logo-text {
   color: white;
   font-family: 'Cantora One', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-left: 10px;
 }
 
 /* Right container */
 .right-container {
   text-align: center;
-  font-size: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 2;
   background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -58,13 +57,11 @@
   font-weight: 500;
   margin-top: 2rem;
   padding: 2rem;
-  font-size: 0.85rem;
 }
 form {
   margin-bottom: 4rem;
 }
 #form-title {
-  font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
@@ -84,7 +81,6 @@ form {
   display: flex;
   flex-direction: column;
   text-align: start;
-  font-size: 0.75rem;
   padding: 0.25rem;
 }
 
@@ -105,7 +101,7 @@ button:hover {
 }
 #blue-text {
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
   color: navy;
 }
 .red {
