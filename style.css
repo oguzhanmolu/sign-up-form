@@ -11,13 +11,17 @@
   padding: 6rem 12rem 6rem 12rem;
   background-color: rgb(35, 44, 60);
 }
-#image-container {
+
+/* Left container */
+#left-container {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 500px;
+  background-image: url(background.jpg);
+  background-size: cover;
 }
 #logo-main {
   display: flex;
@@ -36,13 +40,47 @@
   font-size: 1.5rem;
   margin-left: 10px;
 }
-#image-container {
-  background-image: url(background.jpg);
-  background-size: cover;
-}
-.form {
+
+/* Right container */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 2;
   background-color: rgba(255, 255, 255, 0.9);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+#dummy-text {
+  margin-top: 4rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+#dummy-second-para {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+form {
+  margin-bottom: 4rem;
+}
+#form-title {
+  margin-bottom: 0.5rem;
+}
+#form-inputs {
+  background-color: white;
+}
+
+button {
+  background-color: rgb(35, 44, 60);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-style: none;
+  color: white;
+}
+#blue-text {
+  color: rgb(35, 44, 60);
+}
+#company-name {
+  font-family: 'Cantora One', sans-serif;
 }
